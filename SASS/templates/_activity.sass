@@ -1,0 +1,62 @@
+.activities
+    padding-top: 60px
+    padding-bottom: 100px 
+.activities-title
+    padding-bottom: 57px
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 30px
+    text-transform: uppercase
+.activities-wrapper
+    display: flex
+    justify-content: space-between
+.activities-card
+    width: 255px
+    height: 255px
+    padding: 24px 26px
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    position: relative
+    border-radius: 6px
+    overflow: hidden
+.activities-card::before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    right: 0
+    bottom: 0
+    background:  linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%)
+.activities-card__image
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    object-fit: cover
+    z-index: -1
+    height: 100%
+.activities-card__title
+    margin-top: auto
+    z-index: 99
+    margin-bottom: 18px
+    color: $light
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+.activities-card__button
+    background: $primary
+    border-radius: 4px
+    font-style: normal
+    font-weight: 600
+    font-size: 12px
+    line-height: 16px
+    color: $light
+    border: none
+    padding: 7px 22px
+    cursor: pointer
+    z-index: 90
+
